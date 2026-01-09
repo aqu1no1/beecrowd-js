@@ -1,5 +1,5 @@
-var input = require("fs").readFileSync("entrada.txt", "utf8");
-// var input = require("fs").readFileSync("/dev/stdin", "utf8");
+//var input = require("fs").readFileSync("entrada.txt", "utf8");
+var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
 let money = Math.round(parseFloat(lines[0]) * 100);
